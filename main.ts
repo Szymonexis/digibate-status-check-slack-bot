@@ -2,7 +2,9 @@ import 'dotenv/config';
 
 import fetch, { FetchError, Response } from 'node-fetch';
 
-import { App } from '@slack/bolt';
+import slackBolt from '@slack/bolt';
+
+const { App } = slackBolt;
 
 const SLACK_APP_TOKEN = process.env.SLACK_APP_TOKEN as string;
 const SLACK_APP_SIGNING_SECRET = process.env.SLACK_APP_SIGNING_SECRET as string;

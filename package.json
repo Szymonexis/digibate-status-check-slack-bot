@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"author": "Szymon Kaszuba-Gałka",
 	"license": "ISC",
-	"type": "commonjs",
+	"type": "module",
 	"scripts": {
 		"build": "tsc",
 		"start": "tsc && node dist/main.js"
